@@ -1,10 +1,11 @@
 <div align="center">
 
-<h1>BiDA: Bi-level Domain Adaptation for Real-world Image Dehazing</h1>
+<h1>PDDA: Prompt-driven Domain Adaptation for Real-world Image Dehazing</h1>
 
 <div>
     Yan Zhang</a>&emsp;
     Yuxin Feng</a>&emsp;
+    Xin Li</a>&emsp;
     Fan Zhou</a>&emsp;
     Zhuo Su</a>
 </div>
@@ -18,9 +19,6 @@
 
 </div>
 
-## :mag: Method
-
-<img src="fig/p1.png" alt="Model" style="zoom:80%;" />
 
 ## :pencil2: Results
 
@@ -31,15 +29,15 @@
 Step 1. Clone this repo:
 
 ```
-git clone https://github.com/YanZhang-zy/BiDA.git
-cd BiDA/
+git clone https://github.com/YanZhang-zy/PDDA.git
+cd PDDA/
 ```
 
 Step 2. Create a new conda environment and install dependencies:
 
 ```
-conda create -n BiDA python=3.10
-conda activate BiDA
+conda create -n PDDA python=3.10
+conda activate PDDA
 conda install pytorch==2.2.0 torchvision==0.17.0 torchaudio==2.2.0 pytorch-cuda=11.8 -c pytorch -c nvidia
 pip install -r requirements.txt
 ```
@@ -101,7 +99,7 @@ clip_model/
 └── ViT-B-32.pt
 ```
 
-Step 3. Run the following script to train BiDA from scratch:
+Step 3. Run the following script to train PDDA from scratch:
 ```
 python NBL.py
 python BL.py
@@ -117,7 +115,7 @@ weight/
 └── BL.pth
 ```
 
-Step 3. Run the following script to test BiDA:
+Step 3. Run the following script to test PDDA:
 ```
 python Eval.py
 ```
