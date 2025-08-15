@@ -16,7 +16,7 @@ from CLIP import L_clip_from_feature
 from collections import OrderedDict
 from option.BL import opt
 from res2netmodel import syn_model
-from architect.architect_uv import Architect
+from architect.architect import Architect
 
 start_time = time.time()
 steps = opt.iters_per_epoch * opt.epochs
