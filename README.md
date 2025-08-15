@@ -87,7 +87,7 @@ In our experiment, we randomly select 4000 haze images from URHI training datase
 
 
 ## :hotsprings: Model Training
-Step 1. Download the pre-trained Res2Net model weight from [[BaiduPan](https://pan.baidu.com/s/1Xm9lRFTupWl-SWrGa6X9Gw?pwd=0519)].
+Step 1. Download the pre-trained Res2Net model weight from [[BaiduPan](https://pan.baidu.com/s/1xO6ddmlDO_iom7uGxACLqA?pwd=0519)].
 
 Step 2. Make sure the file structure is consistent with the following:
 ```
@@ -106,7 +106,7 @@ python BL.py
 ```
 
 ## :taxi: Model Testing
-Step 1. Download the pre-trained model weights from [[BaiduPan](https://pan.baidu.com/s/1Xm9lRFTupWl-SWrGa6X9Gw?pwd=0519)].
+Step 1. Download the pre-trained model weights from [[BaiduPan](https://pan.baidu.com/s/1xO6ddmlDO_iom7uGxACLqA?pwd=0519)].
 
 Step 2. Make sure the file structure is consistent with the following:
 ```
