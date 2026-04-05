@@ -19,7 +19,9 @@
 
 </div>
 
-
+## :mega: Updates
+- **2025.04.03**: :fire::fire::fire: Training codes, and initial checkpoints are publicly available now.
+- **2026.04.03**: :tada::tada::tada: Accepted by ***IEEE TIP***.
 ## :pencil2: Results
 
 <img src="fig/p4.png" alt="Results" style="zoom:80%;" />
