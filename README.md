@@ -122,3 +122,8 @@ Step 3. Run the following script to test PDDA:
 python Eval.py
 ```
 
+### No-reference Evaluation
+
+For no-reference evaluation of dehazed images, please refer to [Dehaze-NR-Metrics](https://github.com/YanZhang-zy/Dehaze-NR-Metrics).
+It provides Python implementations of FADE, BIQME, and Entropy.
+
